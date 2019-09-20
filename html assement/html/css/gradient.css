@@ -1,0 +1,8 @@
+#grade{
+    height:300px;
+     background: linear-gradient(to bottom,red,yellow,black,blue,pink,green);
+}
+ #grade1{
+    height: 300px;
+    background: radial-gradient(black,yellow,blue,gold);
+}
