@@ -1,0 +1,21 @@
+<table class="table table-boardered table-hover">
+    <thead style = "background-color:aquamarine">
+    <tr>
+        <th style="font-weight: 400">ID</th>
+        <th style="font-weight: 400">NAME</th>
+        <th style="font-weight: 400">USERNAME</th>
+        <th style="font-weight: 400">EMAIL</th>
+        <th style="font-weight: 400">PHONE NO</th>
+    </tr>
+    
+    </thead>
+    <tbody>
+        <tr *ngFor='let i of userArray'>
+            <td scope= "row">{{i.id}}</td>
+            <td scope= "row">{{i.name}}</td>
+            <td scope= "row">{{i.username}}</td>
+            <td scope= "row">{{i.email}}</td>
+            <td scope= "row">{{i.phone no}}</td>
+        </tr>
+    </tbody>
+</table>
